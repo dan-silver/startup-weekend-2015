@@ -46,3 +46,22 @@ group :development do
   gem 'spring'
 end
 
+
+gem 'bootstrap-sass'
+gem 'figaro', '>= 1.0.0.rc1'
+gem 'haml-rails'
+gem 'high_voltage'
+gem 'omniauth'
+gem 'omniauth-github'
+gem 'simple_form'
+gem 'therubyracer', :platform=>:ruby
+gem 'thin'
+
+group :development do
+  gem 'better_errors'
+  gem 'html2haml'
+  gem 'quiet_assets'
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
